@@ -21,8 +21,16 @@ and Scriptcraft from the following link http://scriptcraftjs.org/download/latest
 
 6. In the `Canary` folder, open the `eula.txt` file with any text editor. Find the line that has the value `false` and change it to `true`.
 
-7. Okay! we're almost there. In order to build our mods in peace, we want to configure our world to be flat and play in creative mode. Go to `config/worlds/default` and open `default_NORMAL.cfg` with any text editor. Change the following lines to > world-type=FLAT >generate-structures=false >pvp=false >gamemode=1
+7. Okay! we're almost there. In order to build our mods in peace, we want to configure our world to be flat and play in creative mode as well as not be bothered by creatures. Go to `config/worlds/default` and open `default_NORMAL.cfg` with any text editor. Change the following lines to 
 
+> world-type=FLAT 
+generate-structures=false 
+pvp=false 
+gamemode=1
+spawn-villagers=true
+spawn-golems=false
+spawn-animals=false
+spawn-monsters=false
 
 
 
