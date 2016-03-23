@@ -7,18 +7,20 @@ However, the tutorial skips over some crucial steps to setup CanaryMod and Scrip
 
 ##Installation
 
-1) Download Java from the Java website and install it on your computer. This will allow you to run CanaryMod and Scriptcraft.
+1. Download Java from the Java website and install it on your computer. This will allow you to run CanaryMod and Scriptcraft.
 
-2) Once installation is complete, open your terminal by searching for `terminal` if you're on Mac or `cmd` if you're on Windows. The terminal is where your CanaryMod server will run while playing Minecraft. Type the command
+2. Once installation is complete, open your terminal by searching for `terminal` if you are on Mac or `cmd` if you're on Windows. The terminal is where your CanaryMod server will run while playing Minecraft. Type the command
 `java` and hit the return key.
   
 If you see the response below, it means Java has been installed successfully in your computer and the terminal can now recognize Java based commands.
 
+3. Download CanaryMod from the following link http://scriptcraftjs.org/download/latest/
+and Scriptcraft from the following link http://scriptcraftjs.org/download/latest/scriptcraft-3.2.0/. After downloading the files, rename the CanaryMod file as `canary.jar` (Trust me, this will make your life much easier in the future). 
 
-2) Download CanaryMod from the following link http://scriptcraftjs.org/download/latest/
-and Scriptcraft from the following link http://scriptcraftjs.org/download/latest/scriptcraft-3.2.0/. After downloading the files, rename the CanaryMod file as `canary.jar` (Trust me, this will make your life easy in the future). 
+4. Create a folder called `Canary` and copy your `canary.jar` and `scriptcraft.jar` files into the folder. 
 
-3) Create a folder called `Canary` and copy your `canary.jar` and `scriptcraft.jar` files into the folder. 
+5. While in your new `Canary` folder, double click your `canary.jar` file. This will initialize all the necessary folders and files to run CanaryMod on your computer. Move your `scriptcraft.jar` file to the plugins folder that has been created.
+
 
 Start the CanaryMod server, then once it has started up, stop it by typing 'stop'. If you go to the CanaryMod folder (see step 1) you should see some new files and subfolders.
 
