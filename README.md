@@ -5,19 +5,20 @@ Thanks to the CanaryMod team and Walter Higgins for their great resources that a
 
 However, the tutorial skips over some crucial steps to setup CanaryMod and Scriptcraft that will get almost anybody running into several roadblocks. This is my version that adds a few extra steps to the original installation guide. 
 
-#Installation
+##Installation
 
 1) Download Java from the Java website and install it on your computer. This will allow you to run CanaryMod and Scriptcraft.
 
-2) Once installation is complete, open your terminal by searching for 'terminal' if you're on Mac or 'cmd' if you're on Windows. The terminal is where your CanaryMod server will run while playing Minecraft. Type the command
-`java` and hit the `return` key.
+2) Once installation is complete, open your terminal by searching for `terminal` if you're on Mac or `cmd` if you're on Windows. The terminal is where your CanaryMod server will run while playing Minecraft. Type the command
+`java` and hit the return key.
   
 If you see the response below, it means Java has been installed successfully in your computer and the terminal can now recognize Java based commands.
 
-2) Download CanaryMod from the following link http://scriptcraftjs.org/download/latest/
-and Scriptcraft from the following link http://scriptcraftjs.org/download/latest/scriptcraft-3.2.0/
 
-3) 
+2) Download CanaryMod from the following link http://scriptcraftjs.org/download/latest/
+and Scriptcraft from the following link http://scriptcraftjs.org/download/latest/scriptcraft-3.2.0/. After downloading the files, rename the CanaryMod file as `canary.jar` (Trust me, this will make your life easy in the future). 
+
+3) Create a folder called `Canary` and copy your `canary.jar` and `scriptcraft.jar` files into the folder. 
 
 Start the CanaryMod server, then once it has started up, stop it by typing 'stop'. If you go to the CanaryMod folder (see step 1) you should see some new files and subfolders.
 
