@@ -31,8 +31,9 @@ spawn-villagers=true
 spawn-golems=false
 spawn-animals=false
 spawn-monsters=false
-```
+
 ..and save the file.
+```
 
 8. Back in your terminal, navigate to the `Canary` folder by typing in the following command `cd desktop/canary`.Now you're accessing your `Canary` folder in your terminal. 
 
