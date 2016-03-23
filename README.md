@@ -47,7 +47,21 @@ spawn-monsters=false
 ##Final Steps
 1. Back in your terminal, navigate to the `Canary` folder by typing in the following command `cd desktop/canary`. Now you are accessing your `Canary` folder in your terminal. 
 
-2. Type the command `java -jar canary.jar` to start the CanaryMod server.
+2. Type the command `java -jar canary.jar` to start the CanaryMod server. Once the server is running you should see something similar to the output below <img width="804" alt="screen shot 2016-03-23 at 7 47 37 pm" src="https://cloud.githubusercontent.com/assets/7483633/13991087/2e09c928-f130-11e5-8d8b-0e1092e4b028.png">
+
+3. Type the command `js 1+1` and it should return `2.0`. This means `scriptcraft` is now being recognized as a plugin by your CanaryMod server. 
+
+4. Now this is when `Minecraft` comes in. Open `Minecraft` and wait for the launcher. Click `Edit Profile` and select `1.8.9` for `Use Version` and then click `Save Profile`.
+
+5. Click `Play`. Once the game menu appears, select `Multiplayer` and then click `Add Server`. 
+
+6. Give your server a name and for your server address type `localhost` and click `Done`. Select your created server and click `Join Server`.
+
+7. While the game is running, back in your terminal, type `op YOURUSERNAME`. Finally, add permission to use `scriptcraft` in the game by typing the following command `groupmod permission add admins scriptcraft.evaluate`. 
+
+8. You should now see the following in your game 
+
+
 
 
 
