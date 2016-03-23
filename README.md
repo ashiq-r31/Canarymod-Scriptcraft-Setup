@@ -21,9 +21,32 @@ and Scriptcraft from the following link http://scriptcraftjs.org/download/latest
 
 6. In `Canary` folder, open the `eula.txt` file with any text editor. Find the line that has the value `false` and change it to `true` and save the file.
 
+##Final Steps
+1. Back in your terminal, navigate to the `Canary` folder by typing in the following command `cd desktop/canary`. Now you are accessing your `Canary` folder in your terminal. 
+
+2. Type the command `java -jar canary.jar` to start the CanaryMod server. Once the server is running you should see something similar to the output below <img width="804" alt="screen shot 2016-03-23 at 7 47 37 pm" src="https://cloud.githubusercontent.com/assets/7483633/13991087/2e09c928-f130-11e5-8d8b-0e1092e4b028.png">
+
+3. Type the command `js 1+1` and it should return `2.0`. This means `scriptcraft` is now being recognized as a plugin by your CanaryMod server. 
+
+4. Now this is when `Minecraft` comes into the picture. Open `Minecraft` and wait for the launcher. Click `Edit Profile` and select `1.8.9` for `Use Version` and then click `Save Profile`.
+
+5. Click `Play`. Once the game menu appears, select `Multiplayer` and then click `Add Server`. 
+
+6. Give your server a name and for your server address type `localhost` and click `Done`. Select your created server and click `Join Server` to join the game on our CanaryMod server.
+
+7. While the game is running, back in your terminal, type `op YOURUSERNAME`. Finally, add permission to use `scriptcraft` in the game by typing the following command `groupmod permission add admins scriptcraft.evaluate`. 
+
+8. And we're done! try typing `js 1+1` in the game and you should see `2.0`. To see what you can do with Scriptcraft start here https://github.com/walterhiggins/ScriptCraft/blob/master/docs/YoungPersonsGuideToProgrammingMinecraft.md#variables
+
 ##Configuring our CanaryMod server
 
-Okay, we're almost there! In order to build our mods in peace, we want to configure our world to be flat and play in creative mode as well as not be bothered by creatures. In `Canary` folder, go to `config` and open `server.cfg` with any text editor and add the following lines:
+In order to build our mods in peace, we want to configure our world to be flat and play in creative mode as well as not be bothered by creatures. Based on the original tutorial, I tried configuring the server file found in the `config` folder before ever running the server in the terminal and none of the changes I made were ever reflected. 
+
+1. Now that we have the game running with CanaryMod server and Scriptcraft, we can disconnect from the game menu as well as stop the server running in the terminal by hitting `ctrl + c`.
+
+2. In your `Canary` folder delete the `Worlds` folder. 
+
+3. Go to `config/worlds/default` and open `default_NORMAL.cfg` and change values for the following lines as below:
 ```
 # completely flat worlds are best for building from scratch
 # bukkit/spigotmc
@@ -44,23 +67,7 @@ spawn-monsters=false
 ```
 ..and save the file.
 
-##Final Steps
-1. Back in your terminal, navigate to the `Canary` folder by typing in the following command `cd desktop/canary`. Now you are accessing your `Canary` folder in your terminal. 
-
-2. Type the command `java -jar canary.jar` to start the CanaryMod server. Once the server is running you should see something similar to the output below <img width="804" alt="screen shot 2016-03-23 at 7 47 37 pm" src="https://cloud.githubusercontent.com/assets/7483633/13991087/2e09c928-f130-11e5-8d8b-0e1092e4b028.png">
-
-3. Type the command `js 1+1` and it should return `2.0`. This means `scriptcraft` is now being recognized as a plugin by your CanaryMod server. 
-
-4. Now this is when `Minecraft` comes in. Open `Minecraft` and wait for the launcher. Click `Edit Profile` and select `1.8.9` for `Use Version` and then click `Save Profile`.
-
-5. Click `Play`. Once the game menu appears, select `Multiplayer` and then click `Add Server`. 
-
-6. Give your server a name and for your server address type `localhost` and click `Done`. Select your created server and click `Join Server`.
-
-7. While the game is running, back in your terminal, type `op YOURUSERNAME`. Finally, add permission to use `scriptcraft` in the game by typing the following command `groupmod permission add admins scriptcraft.evaluate`. 
-
-8. You should now see the following in your game 
-
+4. Run the `java -jar canary.jar` command again in the terminal and you should be good to go!
 
 
 
