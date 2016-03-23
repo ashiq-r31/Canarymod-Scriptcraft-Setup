@@ -17,7 +17,7 @@ and Scriptcraft from the following link http://scriptcraftjs.org/download/latest
 
 4. Create a folder called `Canary` and copy your `canary.jar` and `scriptcraft.jar` files into the folder. 
 
-5. While in your new `Canary` folder, double click your `canary.jar` file. This will initialize all the necessary folders and files to run CanaryMod on your computer. Move your `scriptcraft.jar` file to the plugins folder that has been created.
+5. While in your new `Canary` folder, double click your `canary.jar` file. This will initialize all the necessary folders and files to run CanaryMod on your computer. Move your `scriptcraft.jar` file to the `plugins` folder that has been created.
 
 
 Start the CanaryMod server, then once it has started up, stop it by typing 'stop'. If you go to the CanaryMod folder (see step 1) you should see some new files and subfolders.
