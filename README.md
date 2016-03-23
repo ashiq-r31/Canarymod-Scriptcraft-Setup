@@ -36,6 +36,8 @@ spawn-monsters=false
 
 8. Back in your terminal, navigate to the `Canary` folder by typing in the following command `cd desktop/canary`.
 
-9. Now you're accessing your `Canary` folder in your terminal. Type the following command to start the CanaryMod server `java -jar canary.jar` 
+9. Now you're accessing your `Canary` folder in your terminal. Type the command `java -jar canary.jar` to start the CanaryMod server
+
+
 
 
