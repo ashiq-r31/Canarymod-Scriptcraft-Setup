@@ -10,7 +10,9 @@ However, the tutorial skips over some crucial steps to setup CanaryMod and Scrip
 1. Download `Java` from the Java website and install it on your computer. This will allow you to run CanaryMod and Scriptcraft.
 
 2. Once installation is complete, open your terminal by searching for `terminal` if you are on Mac or `cmd` if you're on Windows. The terminal is where your CanaryMod server will run while playing Minecraft. Type the command
-`java` and hit the return key. If you see the response below, it means Java has been installed successfully in your computer and the terminal can now recognize Java based commands. <img width="827" alt="java" src="https://cloud.githubusercontent.com/assets/7483633/13989096/4ab4ef88-f128-11e5-925c-5b4c0a8bb35b.png">
+`java` and hit the return key. If you see the response below, it means Java has been installed successfully in your computer and the terminal can now recognize Java based commands. 
+
+<img width="827" alt="java" src="https://cloud.githubusercontent.com/assets/7483633/13989096/4ab4ef88-f128-11e5-925c-5b4c0a8bb35b.png">
 
 3. Download CanaryMod from the following link http://scriptcraftjs.org/download/latest/
 and Scriptcraft from the following link http://scriptcraftjs.org/download/latest/scriptcraft-3.2.0/. After downloading the files, rename the CanaryMod file as `canary.jar` (Trust me, this will make your life much easier in the future). 
