@@ -36,7 +36,7 @@ and Scriptcraft from the following link http://scriptcraftjs.org/download/latest
 
 6. Give your server a name and for your server address type `localhost` and click `Done`. Select your created server and click `Join Server` to join the game on our CanaryMod server.
 
-7. While the game is running, back in your terminal, type `op YOURUSERNAME`. Finally, add permission to use `scriptcraft` in the game by typing the following command `groupmod permission add admins scriptcraft.evaluate`. 
+7. While the game is running, back in your terminal, type `op yourminecraftusername`. Finally, add permission to use `scriptcraft` in the game by typing the following command `groupmod permission add admins scriptcraft.evaluate`. 
 
 8. And we're done! try typing `js 1+1` in the game and you should see `2.0`. To see what you can do with Scriptcraft start here https://github.com/walterhiggins/ScriptCraft/blob/master/docs/YoungPersonsGuideToProgrammingMinecraft.md#variables
 
