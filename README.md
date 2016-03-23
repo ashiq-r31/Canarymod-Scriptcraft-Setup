@@ -42,7 +42,7 @@ and Scriptcraft from the following link http://scriptcraftjs.org/download/latest
 
 ##Configuring our CanaryMod server
 
-In order to build our mods in peace, we want to configure our world to be flat and play in creative mode as well as not be bothered by creatures. Based on the original tutorial, I tried configuring the server file found in the `config` folder before ever running the server in the terminal and none of the changes I made were ever reflected. So we skipped the configuration and do the hacky approach below.
+In order to build our mods in peace, we want to configure our world to be flat and play in creative mode as well as not be bothered by creatures. I tried to configure the server file found in the `config` as per the instructions in the original tutorial but it didn't quite seem to work. However, the following hacky approach seems to work, only if you followed all the previous steps in this guide. 
 
 1. Now that we have the game running with CanaryMod server and Scriptcraft, we can disconnect from the game menu as well as stop the server running in the terminal by hitting `ctrl + c`.
 
@@ -69,7 +69,7 @@ spawn-monsters=false
 ```
 ..and save the file.
 
-Run the `java -jar canary.jar` command again in the terminal and you should be good to go!
+Run the `java -jar canary.jar` command again in the terminal and you should be in a flat world and ready to go!
 
 
 
