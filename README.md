@@ -23,15 +23,22 @@ and Scriptcraft from the following link http://scriptcraftjs.org/download/latest
 
 ##Configuring our CanaryMod server
 
-Okay, we're almost there! In order to build our mods in peace, we want to configure our world to be flat and play in creative mode as well as not be bothered by creatures. In `Canary` folder, go to `config/worlds/default` and open `default_NORMAL.cfg` with any text editor and change the following lines as below:
+Okay, we're almost there! In order to build our mods in peace, we want to configure our world to be flat and play in creative mode as well as not be bothered by creatures. In `Canary` folder, go to `config` and open `server.cfg` with any text editor and add the following lines:
 ```
-world-type=FLAT 
-generate-structures=false 
-pvp=false 
+# completely flat worlds are best for building from scratch
+# bukkit/spigotmc
+level-type=FLAT
+# canarymod
+world-type=FLAT
+generate-structures=false
+
+# creative mode
 gamemode=1
-spawn-villagers=true
-spawn-golems=false
-spawn-animals=false
+pvp=false
+
+# turns off authentication (for classroom environments)
+online-mode=false
+spawn-npcs=false
 spawn-monsters=false
 
 ```
