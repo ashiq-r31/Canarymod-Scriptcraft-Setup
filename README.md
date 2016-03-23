@@ -67,7 +67,7 @@ spawn-monsters=false
 ```
 ..and save the file.
 
-4. Run the `java -jar canary.jar` command again in the terminal and you should be good to go!
+Run the `java -jar canary.jar` command again in the terminal and you should be good to go!
 
 
 
