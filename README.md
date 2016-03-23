@@ -1,4 +1,4 @@
-#Instructions to set up CanaryMod and Scriptcraft
+##Instructions to set up CanaryMod and Scriptcraft
 The ultimate easy to follow guide to get started with CanaryMod and Scriptcraft
 
 Thanks to the CanaryMod team and Walter Higgins for their great resources that allow kids to learn to build mods in Minecraft with Javascript code. The origin tutorial to get started with developing mods in Javascript using CanaryMod and Scriptcraft is here: https://github.com/walterhiggins/ScriptCraft/blob/master/docs/YoungPersonsGuideToProgrammingMinecraft.md
@@ -7,7 +7,7 @@ However, the tutorial skips over some crucial steps to setup CanaryMod and Scrip
 
 ##Installation
 
-1. Download Java from the Java website and install it on your computer. This will allow you to run CanaryMod and Scriptcraft.
+1. Download `Java` from the Java website and install it on your computer. This will allow you to run CanaryMod and Scriptcraft.
 
 2. Once installation is complete, open your terminal by searching for `terminal` if you are on Mac or `cmd` if you're on Windows. The terminal is where your CanaryMod server will run while playing Minecraft. Type the command
 `java` and hit the return key. If you see the response below, it means Java has been installed successfully in your computer and the terminal can now recognize Java based commands.
