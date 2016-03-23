@@ -21,7 +21,9 @@ and Scriptcraft from the following link http://scriptcraftjs.org/download/latest
 
 6. In `Canary` folder, open the `eula.txt` file with any text editor. Find the line that has the value `false` and change it to `true` and save the file.
 
-7. Okay, we're almost there! In order to build our mods in peace, we want to configure our world to be flat and play in creative mode as well as not be bothered by creatures. In `Canary` folder, go to `config/worlds/default` and open `default_NORMAL.cfg` with any text editor and change the following lines as below:
+##Configuring our CanaryMod server
+
+Okay, we're almost there! In order to build our mods in peace, we want to configure our world to be flat and play in creative mode as well as not be bothered by creatures. In `Canary` folder, go to `config/worlds/default` and open `default_NORMAL.cfg` with any text editor and change the following lines as below:
 ```
 world-type=FLAT 
 generate-structures=false 
@@ -35,8 +37,7 @@ spawn-monsters=false
 ..and save the file.
 ```
 
-##Configuring our CanaryMod server
-
+##Final Steps
 1. Back in your terminal, navigate to the `Canary` folder by typing in the following command `cd desktop/canary`.Now you're accessing your `Canary` folder in your terminal. 
 
 2. Type the command `java -jar canary.jar` to start the CanaryMod server
