@@ -1,5 +1,5 @@
-##Instructions to set up CanaryMod and Scriptcraft
-The ultimate easy to follow guide to get started with CanaryMod and Scriptcraft
+##Setting up CanaryMod and Scriptcraft
+This the ultimate easy-to-follow guide to get started with CanaryMod and Scriptcraft. 
 
 Thanks to the CanaryMod team and Walter Higgins for their great resources that allow kids to learn to build mods in Minecraft with Javascript code. The origin tutorial to get started with developing mods in Javascript using CanaryMod and Scriptcraft is here: https://github.com/walterhiggins/ScriptCraft/blob/master/docs/YoungPersonsGuideToProgrammingMinecraft.md
 
