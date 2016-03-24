@@ -71,6 +71,9 @@ spawn-monsters=false
 
 Run the `java -jar canary.jar` command again in the terminal and you should be in a flat world and ready to go!
 
+##Common Issues
+Some folks, including myself had problems with the server abruptly stopping mid-game. A lot of times, it's because not enough memory has been allocated to run the CanaryMod server. Try allocating memory with the following command when starting CanaryMod - `java -Xmx1024M -Xms1024M -jar canary.jar`. 
+
 
 
 
