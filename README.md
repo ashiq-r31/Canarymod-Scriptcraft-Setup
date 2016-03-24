@@ -5,7 +5,7 @@ According to Walter Higgins' original tutorial: "CanaryMod is a version of the M
 
 Thanks to the CanaryMod team and Higgins for their great resources that allow kids to learn to build mods in Minecraft with Javascript code. The origin tutorial is here: https://github.com/walterhiggins/ScriptCraft/blob/master/docs/YoungPersonsGuideToProgrammingMinecraft.md
 
-However, the tutorial skips over some crucial steps to setup CanaryMod and Scriptcraft and that will get almost anybody running into several roadblocks. This is my version that adds a few extra steps to the original installation guide. 
+However, the tutorial skips over some crucial steps to setup CanaryMod and Scriptcraft that will get almost anybody running into several roadblocks. This is my version that adds a few extra steps to the original installation guide. 
 
 ##Installation
 
